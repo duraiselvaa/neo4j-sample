@@ -1,0 +1,29 @@
+
+
+Rest client URLs:
+
+Request Headers:
+
+Accept:application/json
+
+Content-Type: application/json
+
+GET: http://localhost:8080/location/locations
+
+GET: http://localhost:8080/location/locations/12
+
+POST: http://localhost:8080/location/locations
+
+{"latitude":40.705,"longitude":-74.009}
+
+Result: 201 created
+
+
+PUT: http://localhost:8080/location/locations
+
+
+{"id":12,"latitude":40.705,"longitude":-74.009}
+
+
+Result: 200 OK
+
